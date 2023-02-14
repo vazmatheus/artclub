@@ -49,15 +49,23 @@
   <!-- fim da navegacap -->
   <main>
     <div class="container main-content">
-      <div class="form">
-        <label for="appt">Choose a time for your meeting:</label>
-
-        <input type="time" id="appt" name="appt"
-        min="09:00" max="18:00" required>
-
-        <small>Office hours are 9am to 6pm</small>
-        <input type="text">
-        <input type="date">
+      <div class="form-container">
+        <form class="form">
+          <div class="input-content">
+            <label for="appt">Choose a time for our meeting:</label>
+            <div class="input">
+              <input type="date">
+              <input type="time" id="appt" name="appt"
+                min="09:00" max="18:00" required>
+            </div>
+          </div>
+          <small>Office hours are 9am to 6pm</small>
+          <hr>
+         <div class="input-content">
+            <label for="">What is your name?</label>
+            <input type="text" placeholder="Enter your name" class="last-input">
+         </div>
+        </form>
         <button>Reservar horario</button>
       </div>
     </div>
