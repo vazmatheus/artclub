@@ -18,9 +18,12 @@ a {
  text-decoration: none;
 }
 
-header {
-  /* background-color: #2f2f2fd1; */
+hr {
+  background: #ffffffbb;
+  width: 50%;
 }
+
+/* estilos do /header */
 
 .nav-bg {
   background-color: #2f2f2fd1;
@@ -43,28 +46,75 @@ header {
   color: #fff !important;
 }
 
-main {
-  /* height: 80vh; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* estilos da Main */
 
 .main-content {
   position: relative;
-  height: 90vh;
+  height: 100vh;
+  /* background-color: blanchedalmond; */
 }
 
-.form {
-  background-color: blanchedalmond;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  gap: 10px;
-  padding: 25px;
+.form-container {
+  background-color: #000000af;
+  color: #fff;
+  min-width: 95%;
+  padding: 10px 5px;
   position: absolute;
   left: 50%;
   top: 50%;
+  border-radius: 5px;
 
   transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-content {
+  display: inline-block;
+  text-align: center;
+}
+
+.input-content>label {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.input-content>input {
+  width: 50%;
+  text-align: center;
+  outline: none;
+}
+
+.form>small {
+  margin-top: 10px;
+}
+
+.form-container>button {
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #0066CC;
+  padding: 10px 20px;
+  border: solid #000000 1px;
+  border-radius: 50px;
+
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.last-input {
+  width: 90% !important;
+  text-align: left !important;
+  padding: 5px 0 5px 10px;
+  border-radius: 10px;
 }
