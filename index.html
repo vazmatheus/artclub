@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
   <title>ArtClub</title>
@@ -30,6 +33,12 @@
   </header>
   <main>
     <div class="form">
+      <label for="appt">Choose a time for your meeting:</label>
+
+      <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
+      <small>Office hours are 9am to 6pm</small>
       <input type="text">
       <input type="date">
       <button>Reservar horario</button>
