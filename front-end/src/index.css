@@ -1,18 +1,10 @@
-* {
+body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-}
-
-body {
-  background-color: #B0BC98;
-  background-image: url('./assets/img/backdrop.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 
   font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   height: 100%;
 }
