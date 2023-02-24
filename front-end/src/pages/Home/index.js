@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
-// import Button from '../../components/Button'
 import Navbar from '../../components/Navbar'
 import Loading from '../../Layout/Loading'
 import { GlobalStyles } from '../../styles/globalStyles'
 import { Title, Paragraph, Button } from '../../styles/styles'
 import { Logo, Main } from './style'
 
-export const Home = () => {
+const Home = () => {
   const history = useHistory();
   const [removeLoading, setRemoveLoading] = useState(false)
 
@@ -16,7 +15,7 @@ export const Home = () => {
     setTimeout(() => {
       setRemoveLoading(false)
       history.push('/appointment')
-    }, 1000);
+    }, 800);
   }
 
   return (
@@ -42,3 +41,5 @@ export const Home = () => {
     </>
   )
 }
+
+export default Home
