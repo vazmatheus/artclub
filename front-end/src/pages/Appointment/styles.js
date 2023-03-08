@@ -71,7 +71,6 @@ export const DivFlex = styled.div`
     width: 45%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between */
   }
 `
 

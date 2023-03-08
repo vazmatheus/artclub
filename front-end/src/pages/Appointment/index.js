@@ -23,8 +23,8 @@ const appointment = () => {
           </DivFlex>
 
           <label htmlFor="phone">Telefone
-            <Input type="tel" id="phone" onKeyDown={ maskPhone }
-              placeholder="(31)99999-9999" />
+            <Input type="text" id="phone" onKeyDown={ maskPhone }
+              placeholder="(31) 99999-9999" />
           </label>
 
           <label htmlFor="email">E-mail
