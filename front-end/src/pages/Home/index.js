@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 import Loading from '../../Layout/Loading'
 import { GlobalStyles } from '../../styles/globalStyles'
 import { Title, Paragraph, Button } from '../../styles/styles'
-import { Logo, Main } from './style'
+import { Img, Logo, Main } from './style'
 
 const Home = () => {
   const history = useHistory();
